@@ -717,7 +717,13 @@ namespace Square_Chaser
             wallCollisionInput.Enabled = true;
             helpButton.Visible = false;
             help = false;
+            helpTimer = 0;
             helpButton.BackColor = Color.White;
+
+            helpLabel1.Visible = false;
+            helpLabel2.Visible = false;
+            helpLabel3.Visible = false;
+            helpLabel4.Visible = false;
 
             player1Score = 0;
             player2Score = 0;
